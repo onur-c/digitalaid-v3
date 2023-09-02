@@ -37,7 +37,9 @@ const Header = () => {
       </div>
       <div className="flex items-center gap-2 ml-auto w-fit">
         <DarkModeToggle />
-        <MobileSheetMenu />
+        <div className="block md:hidden">
+          <MobileSheetMenu />
+        </div>
       </div>
     </header>
   );
