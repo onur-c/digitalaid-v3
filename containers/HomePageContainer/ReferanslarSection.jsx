@@ -39,11 +39,11 @@ const ReferanslarSection = () => {
   return (
     <section
       id="referanslar"
-      className={cn("flex flex-col items-center justify-center mt-24 gap-8")}
+      className={cn("flex flex-col items-center justify-center pt-40 gap-8 ")}
     >
       <div>
         <h2
-          className={cn("text-xl font-mono tracking-[0.2em] dark:opacity-60")}
+          className={cn("text-3xl font-mono tracking-[0.2em] dark:opacity-60")}
         >
           İŞ ORTAKLARIMIZ
         </h2>
@@ -53,20 +53,20 @@ const ReferanslarSection = () => {
             alt="Paperwork"
             width={200}
             height={100}
-            className="object-contain m-auto mt-8 opacity-70 hover:opacity-100"
+            className="object-contain m-auto mt-24 opacity-70 hover:opacity-100"
           />
         </Link>
       </div>
       <h2
         className={cn(
-          "text-xl font-mono tracking-[0.2em] dark:opacity-60 mt-12"
+          "text-3xl font-mono tracking-[0.2em] dark:opacity-60 mt-24"
         )}
       >
         REFERANSLAR
       </h2>
-      <div className="flex flex-wrap items-center justify-center gap-8">
+      <div className="flex flex-wrap items-center justify-center gap-8 mt-24">
         {referanslar.map((referans) => (
-          <Link href={referans.url} target="_blank">
+          <Link href={referans.url} target="_blank" key={referans.alt}>
             <Image
               key={referans.alt}
               src={referans.src}

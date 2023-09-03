@@ -4,6 +4,8 @@ import HeroSection from "./HeroSection";
 import ReferanslarSection from "./ReferanslarSection";
 import AboutSection from "./AboutSection";
 import CommentsSection from "./CommentsSection";
+import ServicesSection from "./ServicesSection";
+import ContactSection from "./ContactSection";
 
 const HomepageContainer = () => {
   return (
@@ -12,6 +14,8 @@ const HomepageContainer = () => {
       <ReferanslarSection />
       <AboutSection />
       <CommentsSection />
+      <ServicesSection />
+      <ContactSection />
     </main>
   );
 };

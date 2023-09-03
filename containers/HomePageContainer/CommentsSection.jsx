@@ -2,7 +2,7 @@ import React from "react";
 
 const CommentsSection = () => {
   return (
-    <section className="dark:text-gray-400 bg-accent body-font">
+    <section className="dark:text-gray-400 bg-accent body-font grid-bg">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-4">
           <div className="p-4 m-auto mb-6 lg:w-1/3 lg:mb-0">

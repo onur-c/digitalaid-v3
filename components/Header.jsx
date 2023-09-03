@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <header
       className={cn(
-        "flex items-center justify-normal w-full px-12 lg:px-32 py-4 border-b"
+        "flex items-center  justify-normal w-full px-12 lg:px-32 py-4 border-b"
       )}
     >
       <Link href="/" className={cn("relative w-24 h-20 mr-2 ")}>
@@ -32,14 +32,15 @@ const Header = () => {
           className={cn("bg-foreground/90 p-2 rounded-sm dark:bg-background")}
         />
       </Link>
-      <div className={cn("hidden md:block")}>
+      <nav className={cn("hidden md:block")}>
         <MyNavigationMenu />
-      </div>
+      </nav>
       <div className="flex items-center gap-2 ml-auto w-fit">
         <DarkModeToggle />
-        <div className="block md:hidden">
+        <nav className="block md:hidden">
+          <span className="sr-only">Toggle Menu</span>
           <MobileSheetMenu />
-        </div>
+        </nav>
       </div>
     </header>
   );

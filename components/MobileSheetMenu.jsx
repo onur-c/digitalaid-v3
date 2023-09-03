@@ -28,7 +28,7 @@ const MobileSheetMenu = () => {
       <SheetTrigger>
         <Menu size={42} strokeWidth={1} />
       </SheetTrigger>
-      <SheetContent>
+      <SheetContent className="overflow-auto">
         {routes.map((route) => (
           <SheetTitle key={route.title}>
             <Link href={route.href}>{route.title}</Link>

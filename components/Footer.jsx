@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className={cn("px-12 py-12")}>
+    <footer className={cn("px-12 py-12 border-t mt-2 ")}>
       <div className={cn("flex flex-col h-24 items-center justify-between")}>
         <p className={cn("dark:opacity-70")}>
           DigitalAid © Tüm Hakları Saklıdır.
