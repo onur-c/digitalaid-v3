@@ -11,12 +11,17 @@ const Footer = () => {
           DigitalAid © Tüm Hakları Saklıdır.
         </p>
         <div className="flex gap-4">
-          <Link href="https://www.instagram.com/digitalaid_io" target="_blank">
+          <Link
+            href="https://www.instagram.com/digitalaid_io"
+            target="_blank"
+            className="hover:opacity-60"
+          >
             <Instagram />
           </Link>
           <Link
             href="https://www.linkedin.com/company/digitalaid-io"
             target="_blank"
+            className="hover:opacity-60"
           >
             <Linkedin />
           </Link>

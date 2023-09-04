@@ -13,7 +13,7 @@ const ContactSection = () => {
       >
         BİZE ULAŞIN
       </h2>
-      <div className="flex flex-col items-center justify-center gap-4 font-light text-center dark:opacity-60">
+      <div className="flex flex-col items-center justify-center gap-4 pt-12 font-light text-center dark:opacity-60">
         <div className="flex justify-center w-3/4 gap-4">
           <MapPin />
           <p>
@@ -86,7 +86,6 @@ const ContactSection = () => {
             border: "none",
             allowFullScreen: "none",
           }}
-          allowfullscreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
