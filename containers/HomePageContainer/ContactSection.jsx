@@ -5,7 +5,7 @@ import { MapPin, Phone, Printer, Mail } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <section className={cn("mt-24 space-y-3")}>
+    <section id="iletisim" className={cn("mt-24 space-y-3")}>
       <h2
         className={cn(
           "text-xl font-mono tracking-[0.2em] dark:opacity-60 text-center "
@@ -13,17 +13,18 @@ const ContactSection = () => {
       >
         BİZE ULAŞIN
       </h2>
-      <div className="flex flex-col items-center justify-center gap-4 pt-12 font-light text-center dark:opacity-60">
-        <div className="flex justify-center w-3/4 gap-4">
+      <div className="flex flex-col items-center justify-center gap-4 pt-12 font-light text-center dark:opacity-60 [&>div>a:hover]:opacity-50 ">
+        <div className="flex justify-center gap-2 px-12">
           <MapPin />
-          <p>
+          <p className="w-full">
             Yeşilköy Mah. Atatürk Cad. EGS Business Park B2 Blok No:12 Kat:Zemin
             D.No:1 PK:34149 Bakırköy/İstanbul/Türkiye
           </p>
         </div>
-        <div className="flex justify-center w-3/4 gap-4">
+        <div className="flex items-center justify-center w-3/4 gap-4 ">
           <Phone />
           <a
+            className="transition-opacity"
             rel=""
             role="link"
             aria-haspopup="false"
@@ -36,6 +37,7 @@ const ContactSection = () => {
           </a>
           |
           <a
+            className="transition-opacity"
             rel=""
             role="link"
             aria-haspopup="false"
@@ -47,9 +49,10 @@ const ContactSection = () => {
             +90 532 473 91 64
           </a>
         </div>
-        <div className="flex justify-center w-3/4 gap-4">
+        <div className="flex items-center justify-center w-3/4 gap-4">
           <Printer />
           <a
+            className="transition-opacity"
             rel=""
             role="link"
             aria-haspopup="false"
@@ -61,9 +64,10 @@ const ContactSection = () => {
             +90 850 522 34 03
           </a>
         </div>
-        <div className="flex justify-center w-3/4 gap-4">
+        <div className="flex items-center justify-center w-3/4 gap-4">
           <Mail />
           <a
+            className="transition-opacity"
             rel=""
             role="link"
             aria-haspopup="false"

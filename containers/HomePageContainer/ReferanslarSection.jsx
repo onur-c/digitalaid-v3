@@ -41,6 +41,8 @@ const ReferanslarSection = () => {
       id="referanslar"
       className={cn("flex flex-col items-center justify-center pt-40 gap-8 ")}
     >
+      <div className="w-1 h-48 mx-auto my-12 bg-gradient-to-b from-transparent via-foreground/60 via-0% to-transparent" />
+
       <div>
         <h2
           className={cn("text-3xl font-mono tracking-[0.2em] dark:opacity-60")}

@@ -5,6 +5,7 @@ import React from "react";
 const ServicesSection = () => {
   return (
     <section id="hizmetlerimiz" className="py-12">
+      <div className="w-1 h-48 mx-auto my-12 bg-gradient-to-t from-transparent via-foreground/60 via-0% to-transparent" />
       <h2
         className={cn(
           "text-3xl font-mono tracking-[0.2em] dark:opacity-60 text-center "

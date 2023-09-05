@@ -1,8 +1,4 @@
-"use client";
-
-import * as React from "react";
-import Link from "next/link";
-
+import React from "react";
 import { cn } from "@/lib/utils";
 import {
   NavigationMenu,
@@ -13,8 +9,9 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import Link from "next/link";
 
-const components = [
+const links = [
   {
     title: "Danışmanlık",
     href: "/danismanlik",
@@ -34,11 +31,10 @@ const components = [
       "PaperWork BPM & ECM: Akıllı Elektronik Formlar, Gelişmiş İş Akışı, Doküman yönetimi ve daha fazlası.",
   },
 ];
-
-export function MyNavigationMenu() {
+const MyMobileNavMenu = () => {
   return (
     <NavigationMenu>
-      <NavigationMenuList>
+      <NavigationMenuList className={cn("flex flex-col items-start")}>
         <NavigationMenuItem>
           <Link href="/#hakkimizda" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
@@ -51,15 +47,13 @@ export function MyNavigationMenu() {
             <p className={cn("text-md")}>Hizmetler</p>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2  ">
-              {components.map((component) => (
+            <ul className="grid gap-3 p-4 w-min">
+              {links.map((link) => (
                 <ListItem
-                  key={component.title}
-                  title={component.title}
-                  href={component.href}
-                >
-                  {component.description}
-                </ListItem>
+                  key={link.title}
+                  title={link.title}
+                  href={link.href}
+                />
               ))}
             </ul>
           </NavigationMenuContent>
@@ -88,8 +82,7 @@ export function MyNavigationMenu() {
       </NavigationMenuList>
     </NavigationMenu>
   );
-}
-
+};
 const ListItem = React.forwardRef(
   ({ className, title, children, ...props }, ref) => {
     return (
@@ -114,3 +107,5 @@ const ListItem = React.forwardRef(
   }
 );
 ListItem.displayName = "ListItem";
+
+export default MyMobileNavMenu;

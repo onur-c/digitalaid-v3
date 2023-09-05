@@ -5,9 +5,10 @@ import { cn } from "@/lib/utils";
 const AboutSection = () => {
   return (
     <section
-      className=" mt-40 body-font bg-[radial-gradient(ellipse_75%_50%_at_50%_50%,rgba(10,19,108,0.3),transparent)] "
+      className=" mt-40 body-font bg-[radial-gradient(ellipse_75%_50%_at_50%_50%,rgba(10,19,108,0.3),transparent)]"
       id="hakkimizda"
     >
+      <div className="w-1 h-48 mx-auto my-12 bg-gradient-to-b from-foreground/5 via-foreground to-foreground/5 " />
       <h2
         className={cn(
           "text-3xl font-mono tracking-[0.2em] dark:opacity-60 text-center "

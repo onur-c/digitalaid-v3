@@ -67,9 +67,11 @@ const ContactForm = () => {
       });
   };
   return (
-    <main className="lg:absolute p-8 border rounded-sm top-24 left-12 mx-auto h-fit w-[500px] bg-accent m-4 ">
+    <main className="lg:absolute p-8  rounded-sm top-24 left-12 mx-auto h-fit w-[500px] bg-accent m-4 ">
       <h3 className="text-xl">Bize Yazın!</h3>
-      <hr />
+      <p className="pb-2 text-sm border-b border-foreground opacity-60">
+        Sizin için buradayız. Nasıl yardımcı olabiliriz?{" "}
+      </p>
       <form onSubmit={handleOnSubmit} className="flex flex-col pt-4">
         <label htmlFor="email">Email</label>
         <input
@@ -79,7 +81,7 @@ const ContactForm = () => {
           onChange={handleOnChange}
           required
           value={inputs.email}
-          className="w-full p-2 border rounded-sm bg-background text-foreground"
+          className="w-full p-2 border rounded-sm bg-background/50 text-foreground"
         />
         <label htmlFor="subject">Konu</label>
         <input
@@ -89,7 +91,7 @@ const ContactForm = () => {
           onChange={handleOnChange}
           required
           value={inputs.subject}
-          className="w-full p-2 border rounded-sm bg-background text-foreground"
+          className="w-full p-2 border rounded-sm bg-background/50 text-foreground"
         />
 
         <label htmlFor="mesaj">Mesaj</label>
@@ -99,7 +101,7 @@ const ContactForm = () => {
           onChange={handleOnChange}
           required
           value={inputs.mesaj}
-          className="w-full p-2 mb-2 border rounded-sm h-28 bg-background text-foreground"
+          className="w-full p-2 mb-2 border rounded-sm h-28 bg-background/50 text-foreground"
         />
         <Button type="submit" disabled={status.submitting}>
           {!status.submitting

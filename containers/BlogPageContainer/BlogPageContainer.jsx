@@ -12,7 +12,7 @@ import YoutubeEmbed from "@/components/YoutubeEmbed";
 const BlogPageContainer = () => {
   return (
     <main className="px-2 py-4 space-y-4 md:px-8 xl:px-36 ">
-      <div className="flex flex-col items-center justify-center p-4 border rounded-sm shadow-xl xl:flex-row">
+      <article className="flex flex-col items-center justify-center p-4 border rounded-sm shadow-xl xl:flex-row">
         <Card>
           <CardHeader>
             <CardTitle>
@@ -36,8 +36,8 @@ const BlogPageContainer = () => {
           <CardFooter></CardFooter>
         </Card>
         <YoutubeEmbed embedId={"jSk_UJZo85o"} />
-      </div>
-      <div className="flex flex-col items-center justify-center p-4 border rounded-sm shadow-xl xl:flex-row">
+      </article>
+      <article className="flex flex-col items-center justify-center p-4 border rounded-sm shadow-xl xl:flex-row">
         <YoutubeEmbed embedId={"6IGEkK8bPQA"} />
 
         <Card>
@@ -63,8 +63,8 @@ const BlogPageContainer = () => {
           </CardContent>
           <CardFooter></CardFooter>
         </Card>
-      </div>
-      <div className="flex flex-col items-center justify-center p-4 border rounded-sm shadow-xl xl:flex-row">
+      </article>
+      <article className="flex flex-col items-center justify-center p-4 border rounded-sm shadow-xl xl:flex-row">
         <Card>
           <CardHeader>
             <CardTitle>
@@ -86,7 +86,7 @@ const BlogPageContainer = () => {
           <CardFooter></CardFooter>
         </Card>
         <YoutubeEmbed embedId={"qBUArleGUoM"} />
-      </div>
+      </article>
     </main>
   );
 };
