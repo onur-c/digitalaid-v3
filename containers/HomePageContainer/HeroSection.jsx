@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
@@ -30,16 +30,25 @@ const HeroSection = () => {
         uygulama konusunda uzmanız.
       </p>
       <div className={cn("flex flex-wrap items-center justify-center gap-4")}>
-        <Button size="lg" className={cn("mt-8 tracking-widest")}>
-          Bize Ulaşın
-        </Button>
-        <Button
-          size="lg"
-          variant="outline"
-          className={cn("mt-8 tracking-widest")}
+        <Link
+          href="/iletisim"
+          className={buttonVariants({
+            size: "lg",
+            className: "mt-8 tracking-widest",
+          })}
         >
-          <Link href="#hizmetlerimiz">Hizmetlerimize Göz Atın</Link>
-        </Button>
+          Bize Ulaşın
+        </Link>
+        <Link
+          href="#hizmetlerimiz"
+          className={buttonVariants({
+            size: "lg",
+            variant: "outline",
+            className: "mt-8 tracking-widest",
+          })}
+        >
+          Hizmetlerimize Göz Atın
+        </Link>
       </div>
     </section>
   );
