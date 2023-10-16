@@ -36,9 +36,9 @@ const MyMobileNavMenu = () => {
     <NavigationMenu>
       <NavigationMenuList className={cn("flex flex-col items-start")}>
         <NavigationMenuItem>
-          <Link href="/#hakkimizda" legacyBehavior passHref>
+          <Link href="/hakkimizda" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              <p className={cn("text-md")}>Hakkımızda</p>
+              <p className={cn("text-md")}>&nbsp;Hakkımızda</p>
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
@@ -47,7 +47,7 @@ const MyMobileNavMenu = () => {
             <p className={cn("text-md")}>Hizmetler</p>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid gap-3 p-4 w-min">
+            <ul className="fixed p-2 border rounded right-24 top-64">
               {links.map((link) => (
                 <ListItem
                   key={link.title}
@@ -66,14 +66,14 @@ const MyMobileNavMenu = () => {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/#referanslar" legacyBehavior passHref>
+          <Link href="/referanslar" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               <p className={cn("text-md")}>Referanslar</p>
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/#iletisim" legacyBehavior passHref>
+          <Link href="/iletisim" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               <p className={cn("text-md")}>İletişim</p>
             </NavigationMenuLink>

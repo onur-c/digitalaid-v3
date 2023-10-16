@@ -12,8 +12,8 @@ import YoutubeEmbed from "@/components/YoutubeEmbed";
 const BlogPageContainer = () => {
   return (
     <main className="px-2 py-4 space-y-4 md:px-8 xl:px-36 ">
-      <article className="flex flex-col items-center justify-center p-4 border rounded-sm shadow-xl xl:flex-row">
-        <Card>
+      <article className="flex flex-col items-center justify-center p-4 border rounded-sm shadow-md xl:flex-row">
+        <Card className="border-none">
           <CardHeader>
             <CardTitle>
               <p>Biz Kimiz?</p>
@@ -24,7 +24,7 @@ const BlogPageContainer = () => {
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <p>
+            <p className="opacity-80">
               Şirketimiz bilişim alanında kamu kurum ve kuruluşları ile özel
               sektöre İş Süreçleri Yönetimi ve Dijital Dönüşüm başta olmak üzere
               alanında deneyimli ve yenilikçi kadrosu İş Süreçleri Yönetimi,
@@ -37,10 +37,10 @@ const BlogPageContainer = () => {
         </Card>
         <YoutubeEmbed embedId={"jSk_UJZo85o"} />
       </article>
-      <article className="flex flex-col items-center justify-center p-4 border rounded-sm shadow-xl xl:flex-row">
+      <article className="flex flex-col items-center justify-center p-4 border rounded-sm shadow-md xl:flex-row">
         <YoutubeEmbed embedId={"6IGEkK8bPQA"} />
 
-        <Card>
+        <Card className="border-none">
           <CardHeader>
             <CardTitle>
               <p>Bi' Kahve Molasında Dijital Dönüşüm</p>
@@ -51,7 +51,7 @@ const BlogPageContainer = () => {
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <p>
+            <p className="opacity-80">
               DigitalAid' den yepyeni bir video serisi! Kahveleri hazırlayın.
               DigitalAid olarak "Bi' Kahve Molasında Dijital Dönüşüm Serisi" çok
               yakında başlatıyoruz. Her ay farklı süreç ve konular sizleri
@@ -64,8 +64,8 @@ const BlogPageContainer = () => {
           <CardFooter></CardFooter>
         </Card>
       </article>
-      <article className="flex flex-col items-center justify-center p-4 border rounded-sm shadow-xl xl:flex-row">
-        <Card>
+      <article className="flex flex-col items-center justify-center p-4 border rounded-sm shadow-md xl:flex-row">
+        <Card className="border-none">
           <CardHeader>
             <CardTitle>
               <p>Bi' Kahve Molasında Dijital Dönüşüm - İşe Alım Uygulaması</p>
@@ -76,7 +76,7 @@ const BlogPageContainer = () => {
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <p>
+            <p className="opacity-80">
               DigitalAid & PaperWork işbirliğiyle hazırladığımız, Bi' Kahve
               Molasında Dijital Dönüşüm Video Serimizin ilk uygulaması
               yayında... 15 dakika içerisinde "İşe Alım Uygulaması" tasarladık,

@@ -10,7 +10,7 @@ const MobileSheetMenu = () => {
   return (
     <Sheet>
       <SheetTrigger>
-        <Menu size={42} strokeWidth={1} />
+        <Menu size={36} strokeWidth={1} />
       </SheetTrigger>
       <SheetContent>
         <MyMobileNavMenu />

@@ -13,12 +13,15 @@ const HeroSection = () => {
     >
       <h1
         className={cn(
-          "text-5xl md:text-8xl font-extrabold mt-32  text-center "
+          "text-5xl md:text-8xl font-extrabold mt-32  text-center not-sr-only "
         )}
       >
         Süreç Yönetim <br /> <span className="font-light">ve</span> <br />{" "}
         Dijital Dönüşüm <br /> <span className="font-light">ile</span> <br />{" "}
         Yüksek Performanslı Süreçler
+      </h1>
+      <h1 className="sr-only">
+        Süreç Yönetim ve Dijital Dönüşüm ile Yüksek Performanslı Süreçler
       </h1>
       <p
         className={cn("text-xl md:text-2xl mt-12 opacity-70 text-center px-4")}

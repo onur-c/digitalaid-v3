@@ -1,21 +1,10 @@
-import React from "react";
-import { DarkModeToggle } from "./DarkModeToggle";
-import Link from "next/link";
-import Image from "next/image";
-import Logo from "@/public/digitalaid-logo.webp";
 import { cn } from "@/lib/utils";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
-} from "@/components/ui/navigation-menu";
-import { MyNavigationMenu } from "./MyNavigationMenu.jsx";
+import Logo from "@/public/digitalaid-logo.webp";
+import Image from "next/image";
+import Link from "next/link";
+import { DarkModeToggle } from "./DarkModeToggle";
 import MobileSheetMenu from "./MobileSheetMenu";
+import { MyNavigationMenu } from "./MyNavigationMenu.jsx";
 
 const Header = () => {
   return (
@@ -37,7 +26,7 @@ const Header = () => {
       </nav>
       <div className="flex items-center gap-2 ml-auto w-fit">
         <DarkModeToggle />
-        <nav className="block md:hidden">
+        <nav className="flex items-center justify-center md:hidden">
           <span className="sr-only">Toggle Menu</span>
           <MobileSheetMenu />
         </nav>

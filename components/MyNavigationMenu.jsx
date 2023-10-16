@@ -40,7 +40,7 @@ export function MyNavigationMenu() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <Link href="/#hakkimizda" legacyBehavior passHref>
+          <Link href="/hakkimizda" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               <p className={cn("text-md")}>Hakkımızda</p>
             </NavigationMenuLink>
@@ -72,14 +72,14 @@ export function MyNavigationMenu() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/#referanslar" legacyBehavior passHref>
+          <Link href="/referanslar" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               <p className={cn("text-md")}>Referanslar</p>
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/#iletisim" legacyBehavior passHref>
+          <Link href="/iletisim" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               <p className={cn("text-md")}>İletişim</p>
             </NavigationMenuLink>

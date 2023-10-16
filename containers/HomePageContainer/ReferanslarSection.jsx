@@ -45,7 +45,9 @@ const ReferanslarSection = () => {
 
       <div>
         <h2
-          className={cn("text-3xl font-mono tracking-[0.2em] dark:opacity-60")}
+          className={cn(
+            "text-3xl text-center font-mono tracking-[0.2em] dark:opacity-60"
+          )}
         >
           İŞ ORTAKLARIMIZ
         </h2>

@@ -1,5 +1,6 @@
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 import React from "react";
 
 const ServicesSection = () => {
@@ -27,7 +28,9 @@ const ServicesSection = () => {
           <p className="w-3/4 text-center dark:opacity-60">
             Değer Odaklı Süreç Yönetimi ve Dijital Dönüşüm
           </p>
-          <Button>İncele →</Button>
+          <Link href="/danismanlik" className={buttonVariants()}>
+            İncele
+          </Link>
         </div>
         <div
           className={cn(
@@ -38,7 +41,9 @@ const ServicesSection = () => {
           <p className="w-3/4 text-center dark:opacity-60">
             Yöneticiler ve Uygulayıcılar için Süreç Yönetimi ve Uygulaması
           </p>
-          <Button>İncele →</Button>
+          <Link href="/egitim" className={buttonVariants()}>
+            İncele
+          </Link>
         </div>
         <div
           className={cn(
@@ -49,7 +54,9 @@ const ServicesSection = () => {
           <p className="w-3/4 text-center dark:opacity-60">
             Dijital Dönüşüm, Süreçleri Stratejiyle Uyumlu Hale Getirir
           </p>
-          <Button>İncele →</Button>
+          <Link href="/yazilim" className={buttonVariants()}>
+            İncele
+          </Link>
         </div>
       </div>
     </section>
