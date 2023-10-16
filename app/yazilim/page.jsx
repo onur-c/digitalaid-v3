@@ -5,6 +5,7 @@ const YazilimPage = () => {
   return (
     <main className="flex flex-col items-center justify-center gap-8 pt-12">
       <Image
+        alt=""
         src="/paperwork-yazilim.webp"
         width={600}
         height={200}

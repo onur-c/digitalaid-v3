@@ -126,10 +126,12 @@ const HakkimizdaPage = () => {
           <p className="w-3/4 mx-auto text-center sm:w-1/2 opacity-60">
             DigitalAid olarak tamamladığımız Dijital Dönüşüm projeleriyle kağıt
             ve kaynak israfını önleyerek sürdürülebilirliğe katkı sağlıyoruz.
-            "Çevreye Duyarlı Teknoloji Üretimi" vizyonumuzu müşterilerimiz ve
-            çözüm ortaklarımızla paylaşmaktan mutluluk duyuyoruz.
+            &quot;Çevreye Duyarlı Teknoloji Üretimi&quot; vizyonumuzu
+            müşterilerimiz ve çözüm ortaklarımızla paylaşmaktan mutluluk
+            duyuyoruz.
           </p>
           <Image
+            alt=""
             src="/thomas-richter-unsplash.jpg"
             width={1200}
             height={500}

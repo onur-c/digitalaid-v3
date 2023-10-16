@@ -36,6 +36,7 @@ const EgitimPage = () => {
             </p>
           </div>
           <Image
+            alt=""
             src="/faturaonaysüreci.webp"
             width={320}
             height={100}
@@ -58,6 +59,7 @@ const EgitimPage = () => {
             </p>
           </div>
           <Image
+            alt=""
             src="/iksüreci.webp"
             width={320}
             height={100}
@@ -80,6 +82,7 @@ const EgitimPage = () => {
             </p>
           </div>
           <Image
+            alt=""
             src="/iksüreci2.webp"
             width={320}
             height={100}
@@ -102,6 +105,7 @@ const EgitimPage = () => {
             </p>
           </div>
           <Image
+            alt=""
             src="/değerlendirmesüreci.webp"
             width={320}
             height={100}
@@ -124,6 +128,7 @@ const EgitimPage = () => {
             </p>
           </div>
           <Image
+            alt=""
             src="/görevatamasüreci.webp"
             width={320}
             height={100}
@@ -146,6 +151,7 @@ const EgitimPage = () => {
             </p>
           </div>
           <Image
+            alt=""
             src="/satınalmasüreci.webp"
             width={320}
             height={100}
@@ -168,6 +174,7 @@ const EgitimPage = () => {
             </p>
           </div>
           <Image
+            alt=""
             src="/ittalepsüreci.webp"
             width={320}
             height={100}
@@ -190,6 +197,7 @@ const EgitimPage = () => {
             </p>
           </div>
           <Image
+            alt=""
             src="/kargotakipsüreci.webp"
             width={320}
             height={100}
@@ -212,6 +220,7 @@ const EgitimPage = () => {
             </p>
           </div>
           <Image
+            alt=""
             src="/izintalepsüreci.webp"
             width={320}
             height={100}
@@ -235,6 +244,7 @@ const EgitimPage = () => {
             </p>
           </div>
           <Image
+            alt=""
             src="/dökyönsistemi.webp"
             width={320}
             height={100}
@@ -258,6 +268,7 @@ const EgitimPage = () => {
             </p>
           </div>
           <Image
+            alt=""
             src="/talepsikayetyönetimi.webp"
             width={320}
             height={100}

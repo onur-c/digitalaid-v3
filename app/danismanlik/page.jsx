@@ -83,6 +83,7 @@ const DanismanlikPage = () => {
                 width={600}
                 height={400}
                 className="rounded-[2px] dark:bg-foreground"
+                alt=""
               />
               <div className="flex flex-col items-start w-4/5 gap-4 tracking-wider sm:w-1/2">
                 <h3 className="text-2xl font-light ">{dt.title}</h3>
