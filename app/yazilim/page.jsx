@@ -32,15 +32,15 @@ const YazilimPage = () => {
             Excel dosyalarınızı iş akışı uygulamalarına dönüştürün.
           </p>
         </li>
-        <li className="flex flex-col gap-2 overflow-hidden border shadow-md rounded-xl md:flex-row">
+        <li className="flex flex-col gap-2 overflow-hidden border shadow-md rounded-xl md:flex-row-reverse">
+          <h3 className="flex items-center justify-center flex-1 p-2 font-bold text-center border bg-secondary ">
+            Gelişmiş İş Akışı
+          </h3>
           <p className="text-sm opacity-80 p-6 text-start flex-[4]">
             Süreç sahiplerine BT ekiplerini dahil etmeden iş akışlarının
             kontrolünü vererek ve darboğazları ortadan kaldırırken görünürlüğü
             ve izlemeyi iyileştirerek güçlendirin.
           </p>
-          <h3 className="flex items-center justify-center flex-1 p-2 font-bold text-center border bg-secondary ">
-            Gelişmiş İş Akışı
-          </h3>
         </li>
         <li className="flex flex-col gap-2 overflow-hidden border shadow-md rounded-xl md:flex-row">
           <h3 className="flex items-center justify-center flex-1 p-2 font-bold text-center border bg-secondary ">
@@ -52,14 +52,14 @@ const YazilimPage = () => {
             ve yüksek performanslı içerik deposu.
           </p>
         </li>
-        <li className="flex flex-col gap-2 overflow-hidden border shadow-md rounded-xl md:flex-row">
+        <li className="flex flex-col gap-2 overflow-hidden border shadow-md rounded-xl md:flex-row-reverse">
+          <h3 className="flex items-center justify-center flex-1 p-2 font-bold text-center border bg-secondary ">
+            Raporlama ve Analitik
+          </h3>
           <p className="text-sm opacity-80 p-6 text-start flex-[4]">
             Karar verme sürecini hızlandırın ve işletme yöneticilerinin işleri
             hakkında bilgiye dayalı kararlar almalarına yardımcı olun.
           </p>
-          <h3 className="flex items-center justify-center flex-1 p-2 font-bold text-center border bg-secondary ">
-            Raporlama ve Analitik
-          </h3>
         </li>
         <li className="flex flex-col gap-2 overflow-hidden border shadow-md rounded-xl md:flex-row">
           <h3 className="flex items-center justify-center flex-1 p-2 font-bold text-center border bg-secondary ">
@@ -71,15 +71,15 @@ const YazilimPage = () => {
             maliyetlerini azaltın.
           </p>
         </li>
-        <li className="flex flex-col gap-2 overflow-hidden border shadow-md rounded-xl md:flex-row">
+        <li className="flex flex-col gap-2 overflow-hidden border shadow-md rounded-xl md:flex-row-reverse">
+          <h3 className="flex items-center justify-center flex-1 p-2 font-bold text-center border bg-secondary ">
+            Düşük Kod Geliştirme
+          </h3>
           <p className="text-sm opacity-80 p-6 text-start flex-[4]">
             Gelişen iş ihtiyaçlarını teknolojinin hızında benimseyin, daha kısa
             sürede daha fazla süreç ve uygulama geliştirin ve rekabette öne
             çıkın.
           </p>
-          <h3 className="flex items-center justify-center flex-1 p-2 font-bold text-center border bg-secondary ">
-            Düşük Kod Geliştirme
-          </h3>
         </li>
       </ul>
     </main>
